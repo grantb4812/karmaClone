@@ -46,6 +46,7 @@ body {
 
 .links {
   float: right;
+  padding-top: .7em;
 }
 
 .top-navigation .links li {
@@ -83,7 +84,7 @@ body {
 
 .introduction h3 {
     margin-top: -.78em;
-    font-size: 1.563rem;
+    font-size: 1.53em;
 }
 
 .introduction h1,
@@ -139,7 +140,40 @@ body {
   display: inline-block;
 }
 
-.cases .content h2 {
-  font-size: 2em;
+.cases h2 {
+  font-size: 2.7em;
   text-align: center;
+  font-weight: 100;
+  color: black;
+  padding-top: 1.53em;
 }
+
+.flex {
+  margin-left: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.flex .two {
+  padding-left: 3em;
+}
+
+.flex .three {
+  padding-left: 5em;
+}
+
+.flex h3 {
+  font-weight: 400;
+  color: black;
+  padding-top: 1em;
+  font-size: 1.54em;
+  margin-left: -2.5em;
+}
+
+.flex .three h3 {
+  padding-left: 2em;
+}
+
+
+
+
