@@ -120,6 +120,9 @@ body {
 
 .flex {
   display: flex;
+  margin-left: 3em;
+  padding-top: 1em;
+  padding-bottom: 6em;
 }
 
 .cases .devices {
@@ -129,15 +132,21 @@ body {
 }
 
 .social {
-  padding-bottom: 9.375rem;
+  padding-bottom: 9.5rem;
 }
 
 .icons {
   text-align: center;
+  margin: -.6em 3em 0 0;
 }
 
 .icons li {
   display: inline-block;
+  border:1px solid gray;
+  border-radius: 50%;
+  height: 2.5em;
+  width: 2.5em;
+  margin-left: 1em;
 }
 
 .cases h2 {
@@ -146,12 +155,6 @@ body {
   font-weight: 100;
   color: black;
   padding-top: 1.53em;
-}
-
-.flex {
-  margin-left: 3em;
-  padding-top: 1em;
-  padding-bottom: 1em;
 }
 
 .flex .two {
@@ -172,6 +175,24 @@ body {
 
 .flex .three h3 {
   padding-left: 2em;
+}
+
+.social h5 {
+  text-align: center;
+  color:black;
+  font-weight:400;
+  font-size: 1em;
+}
+
+.copy {
+  text-align: center;
+  font-size:.9em;
+  font-weight: 100;
+  margin: 1em 0 0 1em;
+}
+
+.icons i {
+  padding-top: .7em;
 }
 
 
